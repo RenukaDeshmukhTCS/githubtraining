@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[TC verify Test is Running ]]>
+    </line>
+    <line>
+      <![CDATA[logout]]>
+    </line>
+    <line>
+      <![CDATA[Closed Browser]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-01-17T15:56:56 IST" name="Default suite" finished-at="2023-01-17T15:58:16 IST" duration-ms="79976">
+    <groups>
+    </groups>
+    <test started-at="2023-01-17T15:56:56 IST" name="Default test" finished-at="2023-01-17T15:58:16 IST" duration-ms="79976">
+      <class name="Test.ResultClass">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:Test.ResultClass@5fbdfdcf]" started-at="2023-01-17T15:56:56 IST" name="openBrowser" finished-at="2023-01-17T15:58:04 IST" duration-ms="68065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method is-config="true" signature="Login()[pri:0, instance:Test.ResultClass@5fbdfdcf]" started-at="2023-01-17T15:58:04 IST" name="Login" finished-at="2023-01-17T15:58:10 IST" duration-ms="6040" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method signature="verifyTextOf()[pri:0, instance:Test.ResultClass@5fbdfdcf]" started-at="2023-01-17T15:58:10 IST" name="verifyTextOf" finished-at="2023-01-17T15:58:16 IST" duration-ms="5740" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[TC verify Test is Running ]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyTextOf -->
+        <test-method is-config="true" signature="logout()[pri:0, instance:Test.ResultClass@5fbdfdcf]" started-at="2023-01-17T15:58:16 IST" name="logout" finished-at="2023-01-17T15:58:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:Test.ResultClass@5fbdfdcf]" started-at="2023-01-17T15:58:16 IST" name="closeBrowser" finished-at="2023-01-17T15:58:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Closed Browser]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- Test.ResultClass -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
